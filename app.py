@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask, render_template, request
 from PIL import Image
 import os
@@ -54,7 +53,6 @@ def index():
     return render_template('index.html', art=art)
 
 if __name__ == '__main__':
-=======
 from flask import Flask, render_template, request
 from PIL import Image
 import os
@@ -110,5 +108,4 @@ def index():
     return render_template('index.html', art=art)
 
 if __name__ == '__main__':
->>>>>>> d59c1737aa73fb9958addd9d1540abd38c0d58dd
     app.run(debug=True)
